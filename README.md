@@ -1,5 +1,7 @@
 # SbtBuiltError
-Simple project to show how the GenBCode option breaks sbt rebuilds
+Simple project to show how the GenBCode option breaks sbt rebuilds.
+
+Basically if you have GenBCode enabled in a multi-project build and you do a compile-clean-compile cycle it breaks saying that it can't find certain class files.  If you quit sbt and restart then it compiles just fine until the next time you run a clean comand.
 
 To reproduce follow these simple steps:
 
