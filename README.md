@@ -10,7 +10,7 @@ clean
 compile
 ```
 
-You can find detailed debug logs on my machine [./debug_errors.md](this debug file).
+You can find detailed debug logs on my machine [this debug file](./debug_errors.md).
 
 Here is an example of the normal error output I see:
 
